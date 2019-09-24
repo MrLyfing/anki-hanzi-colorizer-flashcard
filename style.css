@@ -1,0 +1,65 @@
+.card {
+	font-family: verdana;
+	color: black;
+	border-radius: 5px;
+	background: snow;
+  animation: fadeIn 0.5s linear;
+}
+
+.sub-card {
+	background: white;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.front { 
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.back {
+	margin-top: 20px;
+	padding: 30px 20px;
+}
+
+.header {}
+
+hr {
+	border: 0;
+	border-bottom: 2px dashed lightgrey;
+	background: white;
+	margin: 10px 0;
+}
+
+.hanzi { font-size: 80px; font-weight: 500; }
+.pinyin {
+  font-size: 18px;
+	font-weight: 600;
+}
+.meaning {
+	font-size: 20px;
+}
+.example {
+  font-size: 18px;
+	color: grey;
+}
+.no-example {
+  font-style: italic;
+}
+
+.debug {
+  font-size: 13px;
+  margin-top: 20px;
+  background: indianred;
+}
+.debug .text {
+  padding: 10px;
+}
+
+/* Helpers */
+.emphasize { font-weight: 600; }
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
