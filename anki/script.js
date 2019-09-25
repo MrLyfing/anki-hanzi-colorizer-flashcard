@@ -1,3 +1,4 @@
+// Use IIFE to avoid polluting global scope (Anki web)
 (() => {
   const TONE_COLOR = {
     FIRST: 'red',
