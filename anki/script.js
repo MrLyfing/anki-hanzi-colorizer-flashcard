@@ -2,8 +2,8 @@
 (() => {
   const TONE_COLOR = {
     FIRST: 'red',
-    SECOND: 'blue',
-    THIRD: 'purple',
+    SECOND: 'green',
+    THIRD: 'blue',
     FOURTH: 'violet',
     FIFTH: 'lightgrey'
   }
